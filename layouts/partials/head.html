@@ -29,15 +29,10 @@
 
  <!-- Site Title, Description, Author, and Favicon -->
 
-{{ if .IsHome }}
-    {{- with .Site.Params.homeTitle }}
-      <title>{{ . }}</title>
-    {{- end }}
-  {{ else }}
-    {{- with ($.Scratch.Get "Title") }}
-      <title>{{ . }} - {{ $.Site.Params.homeTitle }}</title>
-    {{- end }}
-{{ end }}
+<!-- feat: use Title directly, leave homeTitle empty for bigimg -->
+{{- with ($.Scratch.Get "Title") }}
+  <title>{{ . }} - {{ $.Site.Params.homeTitle }}</title>
+{{- end }}
 
 {{- with ($.Scratch.Get "Description") }}
   <meta name="description" content="{{ . }}">
