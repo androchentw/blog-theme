@@ -1,6 +1,6 @@
 # Changelog
 
-## [3.1.0] - 2024-09-15
+## [3.0.0] - 2024-09-15
 
 ### UI Enhancements
 
@@ -21,6 +21,7 @@
 * Interactive
   * add back to top
     * fix ui: back-to-top due to no fadeOut and fadeIn in jquery.slim.min.js
+    * fix ui: back-to-top due to no animate in jquery.slim.min.js
   * add TOC (TableOfContents)
   * shorten the navbar after scrolling a little bit down
 
@@ -28,10 +29,11 @@
 
 * feat: rename to main
 * feat: disable build on theme project
-* feat: add .github/ISSUE_TEMPALTE
+* docs: add .github/ISSUE_TEMPALTE
+* docs: add CHANGELOG.md
 * feat ui: Add custom embed multiple language newsletter
 
 <!-- Links -->
 
 <!-- Versions -->
-[3.1.0]: https://github.com/androchentw/blog-hugo/releases/tag/v3.1.0
+[3.0.0]: https://github.com/androchentw/blog-theme/releases/tag/v3.0.0
