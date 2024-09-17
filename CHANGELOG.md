@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0] - 2024-09-17
+
+### UI Enhancements
+
+* feat: add disableDarkMode
+  * Thanks to [hydr0nium:disableDarkmode](https://github.com/halogenica/beautifulhugo/pull/500)
+
 ## [3.0.0] - 2024-09-15
 
 ### UI Enhancements
@@ -36,4 +43,5 @@
 <!-- Links -->
 
 <!-- Versions -->
+[3.1.0]: https://github.com/androchentw/blog-theme/releases/tag/v3.1.0
 [3.0.0]: https://github.com/androchentw/blog-theme/releases/tag/v3.0.0
